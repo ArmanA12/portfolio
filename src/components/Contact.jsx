@@ -1,30 +1,52 @@
-import React from 'react'
-import a from '../assets/1.png'
-import b from '../assets/2.png'
-import c from '../assets/3.png'
-import w from '../assets/w.png'
+import React from 'react';
+import a from '../assets/1.png';
+import b from '../assets/2.png';
+import c from '../assets/3.png';
+import w from '../assets/w.png';
 import emailjs from 'emailjs-com';
-import Swal from 'sweetalert2'
-import { Reveal } from './Reveal'
-
+import Swal from 'sweetalert2';
+import { Reveal } from './Reveal';
 
 export default function Contact() {
-
-
     function sendEmail(e) {
         e.preventDefault();
-        emailjs.sendForm('service_g98ol3a', 'template_usgr0ib', e.target, '8qOefhQJ3w6-iPF7U')
-        Swal.fire({
-            title: 'Thank You',
-            text: 'Message has been sended',
-            icon: 'success',
-            confirmButtonText: 'OK'
-        });
-        window.location.reload();
+        
+        // Send the email to yourself
+        emailjs.sendForm('service_e10dzvv', 'arman63587tfgewg', e.target, 'eK8ff78j71PJhRaqi')
+            .then((result) => {
+                console.log(result.text);
+                Swal.fire({
+                    title: 'Thank You',
+                    text: 'Message has been sent',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                });
 
+                // Send confirmation email to the user
+                const formData = new FormData(e.target);
+                emailjs.send('service_e10dzvv', 'template_updi1fm', {
+                    user_name: formData.get('name'),
+                    user_email: formData.get('user_email')
+                }, 'eK8ff78j71PJhRaqi')
+                .then((result) => {
+                    console.log('Confirmation email sent:', result.text);
+                }, (error) => {
+                    console.log('Failed to send confirmation email:', error.text);
+                });
+            }, (error) => {
+                console.log(error.text);
+                Swal.fire({
+                    title: 'Error',
+                    text: 'An error occurred, please try again.',
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                });
+            });
+        
+        // Optionally reload the page or reset the form
+        // e.target.reset();
+        // window.location.reload();
     }
-
-
 
     return (
         <>
