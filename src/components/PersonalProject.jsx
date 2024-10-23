@@ -3,6 +3,10 @@ import whiteboard from '../assets/whiteboard.png'
 import c from '../assets/3.png'
 import insta from '../assets/insta.png'
 import emc from '../assets/emc.png'
+import chetterNet from '../assets/chatterNet.png'
+import Committee from '../assets/Committee.png'
+
+
 import { Reveal } from './Reveal'
 
 
@@ -19,8 +23,41 @@ function PersonalProject() {
                     <Reveal><div className='myname'>Perosnal Project</div></Reveal>
                     <div>&nbsp;</div>
                     <div className='p-project-cmain'>
-                        <div className='p-card'>
+                    <div className='p-card'>
                             <Reveal><div className='card-no'>01</div></Reveal>
+                            <Reveal><div><img style={{height:"300"}} src={chetterNet} alt="1" /></div></Reveal>
+                            <Reveal><div><h3>ChatterNet Mobile App : Full Stack Social Media App</h3>
+                            </div></Reveal>
+                            <div className='go-git'>
+                                <div className='button-81'><a href="https://github.com/ArmanA12/ChatterNetFMobile-App">Go Live &nbsp; <i class="fa fa-paper-plane"></i></a> </div>
+                                <div className='button-81'><a href="https://github.com/ArmanA12/ChatterNet-Backend">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
+                            </div>
+                        </div>
+                        <div className='p-card'>
+                            <Reveal><div className='card-no'>02</div></Reveal>
+                            <Reveal><div><img style={{height:"300"}} src={Committee} alt="1" /></div></Reveal>
+                            <Reveal><div><h3>Committee Management : Full Stack Mobile App</h3>
+                            </div></Reveal>
+                            <div className='go-git'>
+                                <div className='button-81'><a href="https://github.com/ArmanA12/ChatterNetFMobile-App">Go Live &nbsp; <i class="fa fa-paper-plane"></i></a> </div>
+                                <div className='button-81'><a href="https://github.com/ArmanA12/CommitteeMobileAppBackend">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
+                            </div>
+                        </div>
+                        <div className='p-card'>
+                            <Reveal><div className='card-no'>03</div></Reveal>
+                            <Reveal><div><img src={insta} alt="1" /></div></Reveal>
+                            <Reveal><div><h3>Instagram Clone : Like Instagram</h3></div></Reveal>
+                            <div className='go-git'>
+                                <div className='button-81'><a href="https://peinsta.netlify.app/">Go Live &nbsp; <i class="fa fa-paper-plane"></i> </a></div>
+                                <div className='button-81'><a href="https://github.com/ArmanA12/PeInsta">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>&nbsp;</div>
+
+                    <div className='p-project-cmain'>
+                        <div className='p-card'>
+                            <Reveal><div className='card-no'>04</div></Reveal>
                             <Reveal><div><img src={whiteboard} alt="1" /></div></Reveal>
                             <Reveal><div><h3>Online Collabrative Drawing Board</h3>
                             </div></Reveal>
@@ -29,17 +66,9 @@ function PersonalProject() {
                                 <div className='button-81'><a href="https://github.com/ArmanA12/Whiteboard">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
                             </div>
                         </div>
+                       
                         <div className='p-card'>
-                            <Reveal><div className='card-no'>02</div></Reveal>
-                            <Reveal><div><img src={insta} alt="1" /></div></Reveal>
-                            <Reveal><div><h3>Instagram Clone : Like Instagram</h3></div></Reveal>
-                            <div className='go-git'>
-                                <div className='button-81'><a href="https://peinsta.netlify.app/">Go Live &nbsp; <i class="fa fa-paper-plane"></i> </a></div>
-                                <div className='button-81'><a href="https://github.com/ArmanA12/PeInsta">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
-                            </div>
-                        </div>
-                        <div className='p-card'>
-                            <Reveal><div className='card-no'>03</div></Reveal>
+                            <Reveal><div className='card-no'>05</div></Reveal>
                             <Reveal><div><img src={emc} alt="1" /></div></Reveal>
                             <Reveal><div><h3>E-Commerce: Lile Amazone, Flipkart</h3></div></Reveal>
                             <div className='go-git'>

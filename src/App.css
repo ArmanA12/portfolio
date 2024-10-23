@@ -797,8 +797,12 @@ border-radius: 50%;
     display: none !important;
   }
   body{
-    background-image: linear-gradient(to right top, #f8e8da, #f5e5d8, #f3e2d6, #f0e0d5, #edddd3, #eddcd0, #eedbcd, #eedaca, #f1dac6, #f4dbc1, #f6dbbd, #f7dcb8) !important;  }
-}
+    background-image: linear-gradient(to right top, #f8e8da, #f5e5d8, #f3e2d6, #f0e0d5, #edddd3, #eddcd0, #eedbcd, #eedaca, #f1dac6, #f4dbc1, #f6dbbd, #f7dcb8) !important; 
+   }
+
+
+
+  }
 
 .timeline-main{
   width: 100%;
