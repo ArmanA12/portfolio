@@ -45,7 +45,7 @@ function Skill() {
                             <div className='slikone'>
                                 <p>&nbsp;</p>
                             <Reveal>
-                            <div style={{color:"#788898", fontSize:"40px", letterSpacing:"3px"}} className='myname'>Out of 100%, I am 70% frontend engineer and 30% backend engineer. </div>
+                            <div style={{color:"#827e7d", fontFamily:"Courier New', Courier, monospace", fontSize:"40px", fontWeight:"300", letterSpacing:"3px"}}>Out of 100%, I am 70% frontend engineer and 30% backend engineer. </div>
                             </Reveal>
                                                                  
                                <div>

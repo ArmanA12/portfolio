@@ -51,52 +51,60 @@ function Projects() {
 
 
 
-                <div style={{ width:"100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-                <div className='project-card' id='pcard2'>
-                            <div>
-                                <img style={{borderRadius:"4px"}} width="300px" height="180px" src={bee2bee} alt="img" />
-                            </div>
-                            <div>
+                <div style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "20px" }}>
+                    <div className='project-card' id='pcard2'>
+                        <div>
                             <Reveal>
-                                <div className='card-haeding'>BEE2BEE ASIA</div>
+                            <img style={{ borderRadius: "4px" }} width="300px" height="180px" src={bee2bee} alt="img" />
+                            </Reveal>
+                        </div>
+                        <div>
+                            <Reveal>
+                                <div className='card-haeding'>Bee2Bee Asia</div>
                             </Reveal>
                             <Reveal>
                                 <span style={{ fontFamily: "sans-serif" }}>Independently <b>designed, developed, and deployed</b> a B2B full-stack web application to handle <b>large-scale exhibitions</b>, including the website, <b>Exhibitor, Buyer, and Admin Dashboards</b>. The project involved configuration, deployment, <b>integration of a payment gateway</b>, and successful <b>hosting on AWS</b>.</span><br />
                             </Reveal>
                             <Reveal>
-                                <span style={{ fontFamily: "sans-serif", lineHeight:"1.8", fontSize:"14px" }}>Tech:Next.js, Redux, Prisma, Postgres, Supabase, Tailwind</span>
+                                <span style={{ fontFamily: "sans-serif", lineHeight: "1.8", fontSize: "14px" }}>
+                                    <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: "10px" }}>
+                                        <div className='tech'>Next.js</div>
+                                        <div className='tech'>Redux</div>
+                                        <div className='tech'>Prisma</div>
+                                        <div className='tech'>Postgres</div>
+                                        <div className='tech'>Supabase</div>
+                                        <div className='tech'>Tailwind</div>
+                                    </div>
+                                </span>
                             </Reveal>
                             <Reveal>
-                                <div><span style={{ 
-                                    letterSpacing: "1px", 
-                                    marginTop: "10px",
-                                    padding: "10px 16px",
-                                    border: "1px solid rgba(255,255,255,0.3)",
-                                    borderRadius: "25px",
-                                    backgroundColor: "rgba(255,255,255,0.3)",
-                                    color: "#333",
-                                    cursor: "pointer",
-                                    display: "inline-block",
-                                    transition: "all 0.3s ease",
-                                    boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-                                    fontWeight: "500",
-                                    ":hover": {
-                                        backgroundColor: "#333",
-                                        color: "white",
-                                        transform: "translateY(-2px)",
-                                        boxShadow: "0 4px 8px rgba(0,0,0,0.2)"
-                                    }
-                                }}>Live Website &nbsp;&nbsp;<i className="fa fa-telegram"></i></span></div>
+                                <div><a href="https://www.bee2bee.asia/">
+                                    <span style={{
+                                        letterSpacing: "1px",
+                                        marginTop: "10px",
+                                        padding: "10px 16px",
+                                        border: "1px solid #f3f0eb",
+                                        borderRadius: "25px",
+                                        backgroundColor: "rgba(255,255,255,0.9)",
+                                        color: "#5f5d5c",
+                                        cursor: "pointer",
+                                        display: "inline-block",
+                                        transition: "all 0.3s ease",
+                                        letterSpacing: "1px"
+                                    }}>Live Website &nbsp;&nbsp;<i className="fa fa-telegram"></i></span>
+                                </a></div>
                             </Reveal>
-                            </div>
                         </div>
-                        
-                        
-                        <div className='project-card' id='pcard2'>
-                            <div>
-                                <img style={{borderRadius:"4px"}} width="300px" height="180px" src={intex} alt="img" />
-                            </div>
-                            <div>
+                    </div>
+
+
+                    <div className='project-card' id='pcard2'>
+                        <div>
+                            <Reveal>
+                            <img style={{ borderRadius: "4px" }} width="300px" height="180px" src={intex} alt="img" />
+                            </Reveal>
+                        </div>
+                        <div>
                             <Reveal>
                                 <div className='card-haeding'>Intex South Asia</div>
                             </Reveal>
@@ -104,37 +112,42 @@ function Projects() {
                                 <span style={{ fontFamily: "sans-serif" }}>3 website created for intex south asia sub domain in latest technology and just in 16 days and optimized <b>10+ Rest API</b> and decreased their response time from <b>14 SECOND to 6 SECOND. </b><b>Over all performance increased to 21%.</b></span><br />
                             </Reveal>
                             <Reveal>
-                                <span style={{ fontFamily: "sans-serif", lineHeight:"1.8", fontSize:"14px" }}>Tech:React, Redux,Rest API, Mysql   Javascript, Tailwind</span>
+                                <span style={{ fontFamily: "sans-serif", lineHeight: "1.8", fontSize: "14px" }}>
+                                    <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: "10px" }}>
+                                        <div className='tech'>React</div>
+                                        <div className='tech'>Redux</div>
+                                        <div className='tech'>Rest API</div>
+                                        <div className='tech'>MySQL</div>
+                                        <div className='tech'>JavaScript</div>
+                                        <div className='tech'>Tailwind</div>
+                                    </div>
+                                </span>
                             </Reveal>
                             <Reveal>
-                                <div><span style={{ 
-                                    letterSpacing: "1px", 
-                                    marginTop: "10px",
-                                    padding: "10px 16px",
-                                    border: "1px solid rgba(255,255,255,0.3)",
-                                    borderRadius: "25px",
-                                    backgroundColor: "rgba(255,255,255,0.3)",
-                                    color: "#333",
-                                    cursor: "pointer",
-                                    display: "inline-block",
-                                    transition: "all 0.3s ease",
-                                    boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-                                    fontWeight: "500",
-                                    ":hover": {
-                                        backgroundColor: "#333",
-                                        color: "white",
-                                        transform: "translateY(-2px)",
-                                        boxShadow: "0 4px 8px rgba(0,0,0,0.2)"
-                                    }
-                                }}>Live Website &nbsp;&nbsp;<i className="fa fa-telegram"></i></span></div>
+                                <div><a  href="https://bd.intexsouthasia.com/">
+                                    <span style={{
+                                        letterSpacing: "1px",
+                                        marginTop: "10px",
+                                        padding: "10px 16px",
+                                        border: "1px solid #f3f0eb",
+                                        borderRadius: "25px",
+                                        backgroundColor: "rgba(255,255,255,0.9)",
+                                        color: "#5f5d5c",
+                                        cursor: "pointer",
+                                        display: "inline-block",
+                                        transition: "all 0.3s ease",
+                                        fontWeight:"300"
+                                    }}>Live Website &nbsp;&nbsp;<i className="fa fa-telegram"></i></span></a></div>
                             </Reveal>
-                            </div>
                         </div>
-                        <div className='project-card' id='pcard2'>
-                            <div>
-                                <img style={{borderRadius:"4px"}} width="300px" height="180px" src={wofx} alt="img" />
-                            </div>
-                            <div>
+                    </div>
+                    <div className='project-card' id='pcard2'>
+                        <div>
+                            <Reveal>
+                            <img style={{ borderRadius: "4px" }} width="300px" height="180px" src={wofx} alt="img" />
+                            </Reveal>
+                        </div>
+                        <div>
                             <Reveal>
                                 <div className='card-haeding'>World Furniture Expo
                                 </div>
@@ -144,32 +157,32 @@ function Projects() {
                                 </span><br />
                             </Reveal>
                             <Reveal>
-                                <span style={{ fontFamily: "sans-serif", lineHeight:"1.8", fontSize:"14px" }}>Tech:Next.js, Tailwind, React Hook Form</span>
+                                <span style={{ fontFamily: "sans-serif", lineHeight: "1.8", fontSize: "14px" }}>
+                                    <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: "10px" }}>
+                                        <div className='tech'>Next.js</div>
+                                        <div className='tech'>Tailwind</div>
+                                        <div className='tech'>React Hook Form</div>
+                                    </div>
+                                </span>
                             </Reveal>
                             <Reveal>
-                                <div><span style={{ 
-                                    letterSpacing: "1px", 
-                                    marginTop: "10px",
-                                    padding: "10px 16px",
-                                    border: "1px solid rgba(255,255,255,0.3)",
-                                    borderRadius: "25px",
-                                    backgroundColor: "rgba(255,255,255,0.3)",
-                                    color: "#333",
-                                    cursor: "pointer",
-                                    display: "inline-block",
-                                    transition: "all 0.3s ease",
-                                    boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-                                    fontWeight: "500",
-                                    ":hover": {
-                                        backgroundColor: "#333",
-                                        color: "white",
-                                        transform: "translateY(-2px)",
-                                        boxShadow: "0 4px 8px rgba(0,0,0,0.2)"
-                                    }
-                                }}>Live Website &nbsp;&nbsp;<i className="fa fa-telegram"></i></span></div>
+                                <div><a href="https://www.wofxworldexpo.com/">
+                                    <span style={{
+                                        letterSpacing: "1px",
+                                        marginTop: "10px",
+                                        padding: "10px 16px",
+                                        border: "1px solid #f3f0eb",
+                                        borderRadius: "25px",
+                                        backgroundColor: "rgba(255,255,255,0.9)",
+                                        color: "#5f5d5c",
+                                        cursor: "pointer",
+                                        display: "inline-block",
+                                        transition: "all 0.3s ease",
+                                        letterSpacing: "1px"
+                                    }}>Live Website &nbsp;&nbsp;<i className="fa fa-telegram"></i></span></a></div>
                             </Reveal>
-                            </div>
                         </div>
+                    </div>
 
                 </div>
             </div>

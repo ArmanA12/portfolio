@@ -10,9 +10,9 @@ function Banner() {
                     <div className='bannerDiv'>
                         
                         <Reveal>
-                            <div className='myname'>Hy! &nbsp; I &nbsp; Am <br /><span style={{ color: "rgb(14, 40, 91)" }}>Md Arman Shekh</span></div>
+                            <div className='myname'>Hy! &nbsp; I &nbsp; Am <br /><span style={{ color: "#5f5d5c" }}>Md Arman Shekh</span></div>
                        
-                            <p style={{ color: "rgb(84, 84, 84)", fontFamily: "sans-serif" }}><span style={{ color: "rgb(14, 40, 91)" }}>Hi</span>, I m Arman Shekh having 2.5-year experienced React developer dedicated to crafting seamless and user-friendly web experiences. Seeking collaborative opportunities to excel in front-end development.</p>
+                            <p style={{ color: "#5f5d5c", letterSpacing:"1px",  fontFamily: "sans-serif" }}><span style={{ color: "#5f5d5c" }}>Hi</span>, I m Arman Shekh having 2.5-year experienced React developer dedicated to crafting seamless and user-friendly web experiences. Seeking collaborative opportunities to excel in front-end development.</p>
 
                         </Reveal>
                         <Reveal>

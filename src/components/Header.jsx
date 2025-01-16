@@ -10,7 +10,7 @@ function Header() {
                 <div className='header'>
                     <div>
                         <Reveal>
-                        <div className='LOGO'>Arman <span style={{color:"rgb(14, 40, 91)"}}>s.</span></div>
+                        <div className='LOGO'>Arman <span style={{color:"#5f5d5c"}}>s.</span></div>
                         </Reveal>
                     </div>
                     <div className='links-main'>
@@ -21,7 +21,7 @@ function Header() {
 
                         </div>
                         <div>
-                            <a className='button-81' href="mailto:mdarmanshekh4@gmail.com"><span className='hidemobile'>Contact Me</span> &nbsp; <i style={{fontSize:"22px"}} class="fa fa-commenting-o"></i></a>
+                            <a style={{fontWeight:"350", color:"#5f5d5c"}} className='button-81' href="mailto:mdarmanshekh4@gmail.com"><span className='hidemobile'>Contact Me</span> &nbsp; <i style={{fontSize:"22px"}} class="fa fa-commenting-o"></i></a>
                         </div>
                     </div>
                 </div>
