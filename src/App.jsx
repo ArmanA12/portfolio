@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import PersonalProject from './components/PersonalProject'
 import AnimatedCursor from './components/Animatedcursor'
 import { Reveal } from './components/Reveal.tsx'
+import Backgroundpattern from './components/BackgroundPattern.jsx'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
 
       <div className='main-portfolio'>
         <div className='portfolio'>
+          
           <Header />
           <Homemain />
           <p>&nbsp;</p>

@@ -230,18 +230,17 @@
   justify-content: space-between;
 }
 .project-card{
-  width: 370px;
+  width:80%;
   padding: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   border-radius: 4px;
   margin-top: 30px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 2px;
+  background: rgba(0,0,0, 0.01);
 
 }
 .card-no{
@@ -254,6 +253,8 @@
 .card-haeding{
   color: #606977;
   font-size: 23px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
 }
 .project-card span{
   color: #606977;
@@ -659,6 +660,9 @@ border-radius: 50%;
     background: rgba(255, 255, 255, 0.2);
     padding-left: 0px !important;
     padding-right: 0px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
    
   .exs-container{

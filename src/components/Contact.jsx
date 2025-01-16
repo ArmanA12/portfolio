@@ -74,14 +74,14 @@ export default function Contact() {
                     <div className='contant2'>
                         <form onSubmit={sendEmail}>
                             <div className='firstlast'>
-                                <input type="text" name="name" placeholder='Your Name' required /> &nbsp;
+                                <input style={{padding:"8px"}} type="text" name="name" placeholder='Your Name' required /> &nbsp;
                             </div>
 
                             <div>
-                                <input type="text" name="user_email" id="" placeholder='Your Email' required />
+                                <input style={{padding:"8px"}} type="text" name="user_email" id="" placeholder='Your Email' required />
                             </div>
                             <div>
-                                <textarea style={{ height: "110px" }} name="message" placeholder='Write Message' cols="40" rows="8" required></textarea>
+                                <textarea style={{ height: "110px", padding:"8px" }} name="message" placeholder='Write Message' cols="40" rows="8" required></textarea>
                             </div>
                             <br />
                             <div>
