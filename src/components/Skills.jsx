@@ -46,13 +46,10 @@ function Skill() {
                                 <p>&nbsp;</p>
                             <Reveal>
                             <div style={{color:"#827e7d", fontFamily:"Courier New', Courier, monospace", fontSize:"40px", fontWeight:"300", letterSpacing:"3px"}}>Out of 100%, I am 70% frontend engineer and 30% backend engineer. </div>
-                            </Reveal>
-                                                                 
-                               <div>
-                                
+                            </Reveal>                             
+                               <div>      
                             </div>
                             </div>
-                    
                             <div className='slikone'style={{marginLeft:'200px'}}>
                                <div>
                                 <div className='first-div'>
@@ -105,10 +102,7 @@ function Skill() {
                     </div>
                 </div>
             </div>
-
-
         </>
-
     )
 }
 
