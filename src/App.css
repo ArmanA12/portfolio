@@ -771,7 +771,8 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px !important;
+    width: 95% !important;
   }
 
   .exs-container {
@@ -1201,7 +1202,7 @@ li.timeline-item .location {
 }
 
 .tech {
-  background: rgba(255, 255, 255, 0.9);
+  background: #f2f2f2;
   padding: 2px 8px;
   border: 1px solid rgba(255, 255, 255, 0.9);
   font-size: 12px;
