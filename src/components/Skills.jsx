@@ -35,7 +35,7 @@ function Skill() {
                 </div>
                 <div className='skill-container'>
                     <div className='skill'>
-                        <Reveal><div className='myname'>Below is my &nbsp; skill </div></Reveal>
+                        <Reveal><div className='myname'>Below is my skill </div></Reveal>
                         <Reveal><p style={{ color: "rgb(84, 84, 84)", fontFamily: "sans-serif" }}>Below Mentioned is My Technical Skill  </p></Reveal>
                     </div>
                 </div>
@@ -45,12 +45,12 @@ function Skill() {
                             <div className='slikone'>
                                 <p>&nbsp;</p>
                             <Reveal>
-                            <div style={{color:"#827e7d", fontFamily:"Courier New', Courier, monospace", fontSize:"40px", fontWeight:"300", letterSpacing:"3px"}}>Out of 100%, I am 70% frontend engineer and 30% backend engineer. </div>
+                            <div className='skill-text'>Out of 100%, I am 70% frontend engineer and 30% backend engineer. </div>
                             </Reveal>                             
                                <div>      
                             </div>
                             </div>
-                            <div className='slikone'style={{marginLeft:'200px'}}>
+                            <div className='slikone'style={{marginLeft:'120px'}}>
                                <div>
                                 <div className='first-div'>
                                     <div>

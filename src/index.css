@@ -5,7 +5,9 @@ body{
   padding: 0px;
   scroll-behavior: smooth;
   width: 100%;
-  font-family: 'Rubik', sans-serif !important;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+
 
   /* background-image: linear-gradient(to right top, #f8e8da, #f3e2d4, #efdcce, #ead7c9, #e6d1c3, #e6d0c0, #e7cfbd, #e7ceba, #ecd1ba, #f0d5b9, #f4d8b9, #f7dcb8); */
 background: #fffbf5;

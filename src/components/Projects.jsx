@@ -26,7 +26,7 @@ function Projects() {
                         <div>
                             <div>
                                 <Reveal>
-                                    <div className='myname'>Project &nbsp; Work </div>
+                                    <div className='myname'>Project Work </div>
                                     <p style={{ color: "rgb(84, 84, 84)", fontFamily: "sans-serif" }}>Work and Handled Some India Biggest CA and Tax Institute Website</p>
 
                                 </Reveal>
