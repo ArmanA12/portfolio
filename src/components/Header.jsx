@@ -20,7 +20,7 @@ function Header() {
                             <li><a href="">Experience</a></li>
 
                         </div>
-                        <div>
+                        <div className='hidemobile'>
                             <a style={{fontWeight:"350", color:"#5f5d5c"}} className='button-81' href="mailto:mdarmanshekh4@gmail.com"><span className='hidemobile'>Contact Me</span> &nbsp; <i style={{fontSize:"22px"}} class="fa fa-commenting-o"></i></a>
                         </div>
                     </div>
