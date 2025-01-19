@@ -35,7 +35,7 @@ function App() {
           <Projects />
           
           <p>&nbsp;</p>
-          <Experience />
+          {/* <Experience /> */}
           <p>&nbsp;</p>
           <Skill />
           <p>&nbsp;</p>
