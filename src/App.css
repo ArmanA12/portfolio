@@ -727,6 +727,12 @@ textarea {
     padding: 6px;
 
   }
+  .skill-container{
+    padding: 10px;
+  }
+  .skill-text{
+    font-size: 30px !important;
+  }
 
   .bannerContainer {
     flex-direction: column-reverse;
@@ -938,10 +944,9 @@ textarea {
   .project-bg {
     display: none !important;
   }
-
-
-
-
+ body{
+  background:#f4ede2 ;
+ }
 }
 
 .timeline-main {
